@@ -11,6 +11,7 @@
 }
 .container{
     width: 1186px;
+    overflow: hidden;
     /* border: 1px solid black; */
 }
 .flex{
