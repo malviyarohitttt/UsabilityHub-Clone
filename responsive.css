@@ -1,0 +1,150 @@
+@media only screen and (max-width:425px) {
+    .container {
+        width: 100%;
+    }
+
+    .nav-links-container {
+        display: none;
+    }
+
+    .first-section .flex {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        flex-direction: column !important;
+        margin-top: -25px;
+    }
+
+    .first-section .flex .left,
+    .right {
+        width: 100%;
+    }
+
+    .com-logo {
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .f-main-div-left,
+    .f-main-div-right {
+        height: 455px;
+    }
+
+    .left h3 {
+        font-size: 25px;
+        margin: 0 auto;
+    }
+
+    .left p {
+        width: 91%;
+        margin-top: -40px;
+        color: #577592;
+        font-size: 20px;
+    }
+
+    .left .try-free {
+        margin-top: 0;
+    }
+
+    .right img {
+        width: 100%;
+    }
+
+    .third-section {
+        background-image: none;
+        margin-top: 50px;
+    }
+
+    .fourth-section {
+        margin-top: 90px;
+    }
+
+    .contant h2 {
+        text-align: center;
+    }
+
+    .second-section {
+        margin-top: 90px !important;
+    }
+
+    .second-section h3 {
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .fourth-section .flex {
+        flex-direction: column !important;
+    }
+
+    .fourth-section>div:nth-child(2) {
+        margin-top: 70px;
+    }
+
+    .fourth-section>div:nth-child(3) {
+        margin-top: 70px;
+    }
+
+    .f-main-div-left,
+    .f-main-div-right {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+    .box-row-1 {
+        flex-wrap: wrap;
+    }
+
+    .box-row-1 .box {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 75px;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        width: 100%;
+        height: 300px;
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .sub-footer .flex {
+        flex-direction: column;
+    }
+
+    .sub-footer-logo {
+        flex-direction: row !important;
+    }
+
+    .sub-footer {
+        height: 200px;
+    }
+
+    .sub-footer .flex {
+        flex-direction: column;
+    }
+
+    .sub-footer-logo {
+        padding-left: 0px;
+    }
+
+    .sub-footer-logo i {
+        font-size: 25px;
+    }
+
+}
